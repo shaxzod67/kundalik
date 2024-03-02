@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/America.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 80%;
+    height: 400px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    border: 1px solid gray;
+    padding: 10px;
+    position: relative;
+}
+#input{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+}
+#input:focus{
+    outline: none;
+}
+#button{
+    width: 30%;
+    height: 30px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+}
+
+#pp{
+    position: absolute;
+    font-size: 14px;
+    color: #000;
+    font-weight: 550;
+    font-family: cursive;
+    top: 80px;
+    left: 10px;
+}
