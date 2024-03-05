@@ -2,13 +2,13 @@ let button = document.querySelector('#button');
 let pp = document.querySelector("#pp");
 function kundalik() {
     let input1 = document.querySelector('#input1').value
-    let a = 'Olimjonov'
-    let b = 'Bobomurod'
+    let a = 'Olimjonov '
+    let b = 'Bobomurod '
     if (input1 == a) {
         function myDay() {
             let input = document.querySelector('#input').value
             switch (input) {
-                case 'Dushanba':
+                case 'Dushanba ':
                     pp.innerHTML = "1: 5:00 - 6:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 6:00 - 7:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 7:00 - 8:00 = Choy va h.z  " + '<br>' +
@@ -21,7 +21,7 @@ function kundalik() {
                         "10: 22:00 - 23:00 = Ing tili Lug'at yodlash " + '<br>'
                     break;
 
-                case 'Seshanba':
+                case 'Seshanba ':
                     pp.innerHTML = "1: 5:00 - 6:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 6:00 - 7:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 7:00 - 8:00 = Choy va h.z  " + '<br>' +
@@ -34,7 +34,7 @@ function kundalik() {
                         "10: 22:00 - 23:00 = Ing tili Lug'at yodlash " + '<br>'
                     break;
 
-                case 'Chorshanba':
+                case 'Chorshanba ':
                     pp.innerHTML = "1: 5:00 - 6:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 6:00 - 7:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 7:00 - 8:00 = Choy va h.z  " + '<br>' +
@@ -47,7 +47,7 @@ function kundalik() {
                         "10: 22:00 - 23:00 = Ing tili Lug'at yodlash " + '<br>'
                     break;
 
-                case 'Payshanba':
+                case 'Payshanba ':
                     pp.innerHTML = "1: 5:00 - 6:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 6:00 - 7:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 7:00 - 8:00 = Choy va h.z  " + '<br>' +
@@ -60,7 +60,7 @@ function kundalik() {
                         "10: 22:00 - 23:00 = Ing tili Lug'at yodlash " + '<br>'
                     break;
 
-                case 'Juma':
+                case 'Juma ':
                     pp.innerHTML = "1: 5:00 - 6:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 6:00 - 7:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 7:00 - 8:00 = Choy va h.z  " + '<br>' +
@@ -75,7 +75,7 @@ function kundalik() {
                     break;
 
 
-                case 'Shanba':
+                case 'Shanba ':
                     pp.innerHTML = "1: 5:00 - 6:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 6:00 - 7:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 7:00 - 8:00 = Choy va h.z  " + '<br>' +
@@ -86,7 +86,7 @@ function kundalik() {
                     break;
 
 
-                case 'Yakshanba':
+                case 'Yakshanba ':
                     pp.innerHTML = " Ixtiyoriy Kun"
                     break;
                 default:
@@ -100,7 +100,7 @@ function kundalik() {
         function myDay() {
             let input = document.querySelector('#input').value
             switch (input) {
-                case 'Dushanba':
+                case 'Dushanba ':
                     pp.innerHTML = "1: 6:00 - 7:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                         "2: 7:00 - 8:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                         "3: 8:00 - 11:00 =Dasturlashdan dars amalyot " + '<br>' +
@@ -113,7 +113,7 @@ function kundalik() {
                         "10: 22:00 - 23:00 = Uyqu " + '<br>'
                     break;
 
-                case 'Seshanba':
+                case 'Seshanba ':
                     pp.innerHTML = "1: 6:00 - 7:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                     "2: 7:00 - 8:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                     "3: 8:00 - 12:00 =Dasturlashdan dars amalyot " + '<br>' +
@@ -126,7 +126,7 @@ function kundalik() {
                     "10: 22:00 - 23:00 = Uyqu " + '<br>'
                     break;
 
-                case 'Chorshanba':
+                case 'Chorshanba ':
                     pp.innerHTML = "1: 6:00 - 7:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                     "2: 7:00 - 8:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                     "3: 8:00 - 11:00 =Dasturlashdan dars amalyot " + '<br>' +
@@ -139,7 +139,7 @@ function kundalik() {
                     "10: 22:00 - 23:00 = Uyqu " + '<br>'
                     break;
 
-                case 'Payshanba':
+                case 'Payshanba ':
                     pp.innerHTML = "1: 6:00 - 7:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                     "2: 7:00 - 8:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                     "3: 8:00 - 12:00 =Dasturlashdan dars amalyot " + '<br>' +
@@ -152,7 +152,7 @@ function kundalik() {
                     "10: 22:00 - 23:00 = Uyqu " + '<br>'
                     break;
 
-                case 'Juma':
+                case 'Juma ':
                     pp.innerHTML = "1: 6:00 - 7:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                     "2: 7:00 - 8:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                     "3: 8:00 - 11:00 =Dasturlashdan dars amalyot " + '<br>' +
@@ -166,7 +166,7 @@ function kundalik() {
                     break;
 
 
-                case 'Shanba':
+                case 'Shanba ':
                     pp.innerHTML = "1: 6:00 - 7:00 = Ingiliz tili Lug'at yodlash " + '<br>' +
                     "2: 7:00 - 8:00 = Dasturlashdan darslik ko'rish  " + '<br>' +
                     "3: 8:00 - 12:00 =Dasturlashdan dars amalyot " + '<br>' +
@@ -180,7 +180,7 @@ function kundalik() {
                     break;
 
 
-                case 'Yakshanba':
+                case 'Yakshanba ':
                     pp.innerHTML = " Ixtiyoriy  Vaqt"
                     break;
                 default:
