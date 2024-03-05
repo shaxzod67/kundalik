@@ -188,10 +188,12 @@ function kundalik() {
             }
 
         }
+        button.onclick = myDay
     }
-
-
+    else{
+        pp.innerHTML = "Siz Hafta kuni yoki ismni noto'g'ti kiritdingiz."
+    }
     button.onclick = myDay
 }
-
 button.onclick = kundalik
+
