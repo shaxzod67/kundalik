@@ -16,7 +16,7 @@ header{
 }
 .box{
     width: 80%;
-    height: 400px;
+    height: 500px;
     border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +74,6 @@ header{
     color: #1fb33f;
     font-weight: 550;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    top: 160px;
+    top: 130px;
     left: 10px;
 }
