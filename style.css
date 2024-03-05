@@ -18,7 +18,7 @@ header{
 }
 .box{
     width: 80%;
-    height: 400px;
+    height: 420px;
     border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
